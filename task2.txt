@@ -1,0 +1,19 @@
+1) Create a folder files in you app.
+Make a SEPARATE page where you can upload files and save them in that folder
+
+1st stage. You should be able to output a list of saved files and be able to delete them and upload a new one.
+
+2nd stage. Make a list of allowed users (me and you) with any login and password. By default it should show a login form. If the user is logged in, it should show their list of files. Separate files on the backend by folders with the user usernames. Store the logged in status into a session so when the user comes back they don't have to login again.
+
+3rd stage. Make it possible to edit files with .txt extension (add edit button to the table). When you click the button JS should show a pup up textarea edit form with save button on it. A tip: make another php file that handles that request and redirects the user back to the main page with files list.
+
+2) On that page also list all the files in a table and add a delete button, so each file can be removed.
+
+3) Research the results that preg_match and preg_match_all provides. Experiment with different inputs.
+Use $1, $2 syntax and find out where the results are put.
+
+4) Change the php.ini timezone settings. Read about available php timezones on php.net.
+
+5) Make a database which is a table. Put the data in the csv file. Output the table lines
+add table lines using inputs from a form
+delete lines using delete button.
