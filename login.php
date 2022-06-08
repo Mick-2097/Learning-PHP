@@ -7,14 +7,16 @@
         <label for="password">Password: </label>
         <input type="password" name="password" id="password" required>
     </div>
-    <button class="btn" type="submit" name="login">LOG IN</button>
-    <p><?php $error_message ?></p>
+    <button class="btn" type="submit" name="submit">LOG IN</button>
     <p class="output">
         <?php
         include_once 'user-auth.php';
-        echo "<pre>";
-        print_r($file);
-        echo "</pre>";
+        
+        echo $_POST['username'] . "<br>";
+        echo gettype($file['users']) . "<br>";
+        print_r($file['users']);
+        echo  "<br>";
+        echo $error_message;
         ?>
     </p>
 </form>

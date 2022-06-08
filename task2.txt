@@ -17,3 +17,13 @@ Use $1, $2 syntax and find out where the results are put.
 5) Make a database which is a table. Put the data in the csv file. Output the table lines
 add table lines using inputs from a form
 delete lines using delete button.
+
+
+
+
+Here is also small steps. First create a file with users logins and passwords.
+Second create a form
+3 on sending form request check the credentials and show success or failure message
+4 save the active user username to a session in case they are logged in
+5 redirect to the main page and show user info there (from session)
+6 create logout link on the page

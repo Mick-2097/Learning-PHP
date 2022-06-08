@@ -42,7 +42,9 @@ nav {
     color: whitesmoke;
 }
 .output {
+    outline: 2px solid red;
     font-family: sans-serif;
+    color: yellowgreen;
 }
 
 
